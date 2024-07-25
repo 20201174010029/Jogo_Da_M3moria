@@ -72,6 +72,32 @@ h1 {
     object-fit: cover;
     border-radius: 10px;
 }
+#restartButton {
+    background-color: #2e88fd; 
+    color: white; 
+    border: none; 
+    border-radius: 8px; 
+    padding: 10px 20px; 
+    font-size: 18px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    margin-top: 20px;
+}
+
+
+#restartButton:focus {
+    outline: none; 
+}
+
+#restartButton:hover {
+    background-color: #ff16169f; 
+}
+
+
+#restartButton:active {
+    transform: scale(0.98); 
+}
+
 
 .celebration {
     display: none;
@@ -90,6 +116,7 @@ h1 {
     animation: fadeIn 1s forwards;
 }
 
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -105,3 +132,4 @@ h1 {
         height: 150px;
     }
 }
+
